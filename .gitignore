@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Ultralytics
+.ultralytics/
+Ultralytics/
+runs/
+
+# Generated data and results
+datasets/
+outputs/
+skipped_rows.log
+
+# Local datasets and caches
+CLPD_1200/
+*.cache
+
+# Model weights
+*.pt
+*.pth
